@@ -6,6 +6,9 @@
   <script>
   </script>
 
-  <style>
-
+<style scoped>
+h2{
+  text-align: center;
+  font-weight: 800;
+}
 </style>

@@ -37,9 +37,10 @@
   
   <style scoped>
   .container{
-    position: absolute;
-    top: 20px;
-    left: 40%;
+    position: fixed;
+    top: 15px;
+
+    left: 80%;
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
@@ -66,4 +67,15 @@
     background-color: #4CAF50;;
     color: white;
   }
+  @media (max-width: 768px) {
+    .container{
+    position: fixed;
+    top: 15px;
+
+    left: 60%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  }
+  
   </style>

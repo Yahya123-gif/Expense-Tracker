@@ -11,3 +11,10 @@
     }
   })
   </script>
+
+  <style scoped>
+h4,h1{
+  padding: 5px;
+  text-align: center;
+}
+</style>
